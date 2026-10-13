@@ -19,7 +19,7 @@
 ##############################################################################
 {
     "name": "Accounting Accountant UX",
-    "version": "19.0.1.17.0",
+    "version": "19.4.1.17.0",
     "category": "Accounting",
     "sequence": 14,
     "summary": "",

@@ -19,7 +19,7 @@
 ##############################################################################
 {
     "name": "Account Batch Payment UX",
-    "version": "19.0.1.0.0",
+    "version": "19.4.1.0.0",
     "category": "Accounting",
     "sequence": 14,
     "summary": "",

@@ -19,7 +19,7 @@
 ##############################################################################
 {
     "name": "Backward compatibility for tax Settlements on Argentina",
-    "version": "19.0.1.0.0",
+    "version": "19.4.1.0.0",
     "category": "Accounting",
     "author": "ADHOC SA",
     "website": "www.adhoc.com.ar",
