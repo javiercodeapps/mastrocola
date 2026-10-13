@@ -1,6 +1,6 @@
 {
     "name": "Account Balance",
-    "version": "19.4.1.9.0",
+    "version": "saas-19.4.1.9.0",
     "category": "Planner",
     "sequence": 14,
     "author": "ADHOC SA",

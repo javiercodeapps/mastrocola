@@ -1,6 +1,6 @@
 {
     "name": "Argentinian Importing Bills from ARCA",
-    "version": "19.4.1.6.0",
+    "version": "saas-19.4.1.6.0",
     "category": "Localization/Argentina",
     "sequence": 8,
     "author": "ADHOC SA",

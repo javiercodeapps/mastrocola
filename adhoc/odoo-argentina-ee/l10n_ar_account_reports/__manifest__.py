@@ -19,7 +19,7 @@
 ##############################################################################
 {
     "name": "Accounting Reports Customized for Argentina",
-    "version": "19.4.1.22.0",
+    "version": "saas-19.4.1.22.0",
     "category": "Accounting",
     "sequence": 14,
     "summary": "",

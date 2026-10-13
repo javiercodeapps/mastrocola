@@ -1,6 +1,6 @@
 {
     "name": "Account Balance Import - Checks",
-    "version": "19.4.1.3.0",
+    "version": "saas-19.4.1.3.0",
     "category": "Accounting",
     "sequence": 14,
     "author": "ADHOC SA",
