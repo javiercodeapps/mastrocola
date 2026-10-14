@@ -1,6 +1,6 @@
 {
     "name": "Argentinian Electronic Invoicing UX",
-    "version": "saas-19.4.1.9.0",
+    "version": "20.0.1.0.0",
     "category": "Localization/Argentina",
     "sequence": 14,
     "author": "ADHOC SA",
@@ -11,7 +11,7 @@
         "account_ux",  # shared_to_branches, que este asistente escribe en el diario que crea
         "l10n_ar_ux",
         "l10n_ar_edi",
-        "l10n_ar_reports_simple",
+#       "l10n_ar_reports_simple",
         "account_accountant",
         "account_base_import",
     ],
@@ -25,8 +25,7 @@
         "views/account_journal_view.xml",
         "views/res_config_settings_view.xml",
         "views/l10n_ar_boarding_permission_view.xml",
-        "views/report_invoice.xml",
-        "security/ir.model.access.csv",
+        "security/ir.access.csv",
     ],
     "demo": [
         "demo/res_partner_demo.xml",

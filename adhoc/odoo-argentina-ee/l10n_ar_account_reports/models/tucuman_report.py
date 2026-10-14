@@ -152,9 +152,9 @@ class L10n_ArTucumanReportHandler(models.AbstractModel):
             # 1, FECHA, longitud: 8. Formato AAAAMMDD
             content += fields.Date.from_string(line.date).strftime("%Y%m%d")
             # 2, TIPODOC, longitud: 2
-            content += line.partner_id.l10n_latam_identification_type_id.l10n_ar_afip_code
+            content += line.partner_id.l10n_ar_afip_code or ""
             # 3, DOCUMENTO, longitud: 11
-            content += line.partner_id.l10n_ar_vat
+            content += line.partner_id.vat
             # 4, TIPO COMP, longitud: 2
             # 99 para retenciones por el ejemplo que pasó en el archivo adjunto el cliente en la tarea 38200
             content += line.move_id.l10n_latam_document_type_id.code.zfill(2) if is_perception else "99"
@@ -190,9 +190,9 @@ class L10n_ArTucumanReportHandler(models.AbstractModel):
             # 1, FECHA, longitud: 8. Formato AAAAMMDD
             content += fields.Date.from_string(line.date).strftime("%Y%m%d")
             # 2, TIPODOC, longitud: 2
-            content += line.partner_id.l10n_latam_identification_type_id.l10n_ar_afip_code
+            content += line.partner_id.l10n_ar_afip_code or ""
             # 3, DOCUMENTO, longitud: 11
-            content += line.partner_id.l10n_ar_vat
+            content += line.partner_id.vat
             # 4, TIPO COMP, longitud: 2
             # 99 para retenciones por el ejemplo que pasó en el archivo adjunto el cliente en la tarea 38200
             content += line.move_id.l10n_latam_document_type_id.code.zfill(2) if is_perception else "99"

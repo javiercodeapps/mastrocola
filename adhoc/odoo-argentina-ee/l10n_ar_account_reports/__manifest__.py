@@ -19,7 +19,7 @@
 ##############################################################################
 {
     "name": "Accounting Reports Customized for Argentina",
-    "version": "saas-19.4.1.22.0",
+    "version": "20.0.1.0.0",
     "category": "Accounting",
     "sequence": 14,
     "summary": "",
@@ -42,7 +42,7 @@
         "account_payment_pro_receiptbook",
     ],
     "data": [
-        "security/ir.model.access.csv",
+        "security/ir.access.csv",
         "views/account_return_type_views.xml",
         "views/inflation_adjustment_index_view.xml",
         "data/tags_data.xml",
