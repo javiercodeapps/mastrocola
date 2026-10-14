@@ -1,4 +1,4 @@
 id,name,model_id,group_id/id,operation,domain
-payment_retry.payment_retry_line, transaction retry line,payment_retry.model_payment_transaction_retry_lines,account.group_account_invoice,crud,
-payment_retry.payment_retry,payment transaction retry,payment_retry.model_payment_transaction_retry,account.group_account_invoice,crud,
-payment_retry.electronic_payment_pending_confirm,electronic payment pending confirm,payment_retry.model_electronic_payment_pending_confirm,account.group_account_invoice,crud,
+payment_retry.payment_retry_line, transaction retry line,payment.transaction.retry.lines,account.group_account_invoice,crud,
+payment_retry.payment_retry,payment transaction retry,payment.transaction.retry,account.group_account_invoice,crud,
+payment_retry.electronic_payment_pending_confirm,electronic payment pending confirm,electronic.payment.pending.confirm,account.group_account_invoice,crud,
